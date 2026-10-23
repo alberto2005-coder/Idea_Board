@@ -5,7 +5,7 @@
 <img height="150" alt="image" src="https://github.com/user-attachments/assets/c1e5e87b-cd1d-4b42-b667-2a336e102d49" />
 
 
-[![Node.js](https://img.shields.io/badge/Node.js-22+-green?logo=node.js)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-24.22.1%2B-green?logo=node.js)](https://nodejs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-blue?logo=postgresql)](https://www.postgresql.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/NekeritStudio/Idea_Board.git)
@@ -16,10 +16,14 @@
 
 ## 📦 Requisitos
 
-- Node.js ≥ 22  
+- Node.js 24.22.1+ (LTS; también válido 22.23.4+ o 26.12.1+)  
 - npm  
 - PostgreSQL ≥ 14  
 - Git (opcional)
+
+> El repo fija la versión en `.nvmrc` (ejecuta `nvm use`) y `.npmrc` activa `engine-strict`,
+> así que `npm install` falla si el host no usa un parche seguro de Node.
+> En Replit, `.replit` declara el módulo `nodejs-24`.
 
 ---
 
